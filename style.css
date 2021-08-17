@@ -1,0 +1,116 @@
+/*general design*/
+h3{
+    color: darkcyan;
+}
+
+.first p{
+    color: lawngreen;
+}
+
+section{
+    border-radius: 1px;
+    padding-left: 1px;
+}
+
+section p{
+    color: grey;
+    font-size: small;
+    font-weight: 100;
+}
+
+article{
+    background-color: darkslategray;
+    border-radius: 1px;
+}
+
+article h4{
+    color: honeydew;
+}
+
+article p{
+    color: lavender;
+}
+
+article h2{
+    color: honeydew;
+    
+}
+span{
+    color: ivory;
+}
+
+article h2{
+    background-color: lawngreen;
+    margin: 30px;
+    margin-right: 40em;
+    border-radius: 2px;
+    text-align: center;
+}
+
+article{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+aside{
+    background-color: teal;
+    
+}
+
+aside h5{
+    color: honeydew;
+}
+
+aside p{
+    color: honeydew;
+}
+/*mobile design*/
+@media  screen and(max-width: 765px) {
+    
+    article,main{
+        width: 70%;
+        margin: auto;
+    }
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.two{
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.three h4{
+    margin-top: 2px;
+}
+
+.three p{
+    margin: 1px;
+}
+
+/*desktop design*/
+@media screen and (min-width: 769px) {
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
